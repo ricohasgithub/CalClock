@@ -1,0 +1,28 @@
+{
+  "fitbit": {
+    "appUUID": "c1c3f431-2f51-409f-9d4d-54b0c50c2fbf",
+    "appType": "clockface",
+    "appDisplayName": "CaliforniaClock",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "",
+    "requestedPermissions": [
+      "access_activity",
+      "access_heart_rate"
+    ],
+    "buildTargets": [
+      "mira",
+      "higgs",
+      "meson",
+      "gemini"
+    ],
+    "i18n": {
+      "en": {
+        "name": "CaliforniaClock"
+      }
+    },
+    "defaultLanguage": "en-US"
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~4.1.0"
+  }
+}

@@ -1,0 +1,75 @@
+.background {
+  viewport-fill: #ff9800;
+}
+
+#hour {
+  font-size: 100;
+  font-family: SevilleSharp-Regular;
+  text-length: 50;
+  text-anchor: middle;
+  x: 27%;
+  y: 44%;
+  fill: white;
+  letter-spacing: 15;
+}
+
+#minute {
+  font-size: 100;
+  font-family: SevilleSharp-Regular;
+  text-length: 50;
+  text-anchor: middle;
+  x: 27%;
+  y: 79%;
+  fill: white;
+  letter-spacing: 15;
+}
+
+#footprint {
+  x: 55%;
+  y: 22%;
+}
+
+#calories {
+  x: 55%;
+  y: 41%;
+}
+
+#floors {
+  x: 55%;
+  y: 62%;
+}
+
+.widget-icon {
+  width: 44;
+  height: 44;
+}
+
+#steps-text {
+  x: 80%;
+  y: 32%;
+  font-size: 25;
+  font-family: SevilleSharp-Regular;
+  text-length: 50;
+  text-anchor: middle;
+  fill: white;
+}
+
+#cals-text {
+  x: 80%;
+  y: 52%;
+  font-size: 25;
+  font-family: SevilleSharp-Regular;
+  text-length: 50;
+  text-anchor: middle;
+  fill: white;
+}
+
+#floors-text {
+  x: 80%;
+  y: 72%;
+  font-size: 25;
+  font-family: SevilleSharp-Regular;
+  text-length: 50;
+  text-anchor: middle;
+  fill: white;
+}

@@ -1,0 +1,60 @@
+<svg>
+  
+  <!-- Background image -->
+  <image x="0" y="0" width="300" height="300" href = "assets/BigSur.jpg" />
+  
+  <!-- Left side time display -->
+  <text id = "hour">
+    <animate attributeName="opacity" begin="load" to="1" from="0" dur="1" />
+    <animate attributeName="x"  begin="load" to="27%" from="-15%" dur="1" />
+  </text>
+  
+  <text id = "minute">
+    <animate attributeName="opacity" begin="load" to="1" from="0" dur="1" />
+    <animate attributeName="x"  begin="load" to="27%" from="-15%" dur="1" />
+  </text>
+  
+  <!-- Right side action center display -->
+  <g id = "steps">
+    
+    <image id = "footprint" class = "widget-icon" href = "assets/stat_steps_solid_48px.png" fill="white">
+      <animate attributeName="opacity" begin="load" to="1" from="0" dur="1" />
+      <animate attributeName="x"  begin="load" to="55%" from="100%" dur="1" />
+    </image>
+    
+    <text id = "steps-text">
+      <animate attributeName="opacity" begin="load" to="1" from="0" dur="1" />
+      <animate attributeName="x"  begin="load" to="80%" from="100%" dur="1" />
+    </text>
+    
+  </g>
+  
+    <g id = "cals">
+    
+    <image id = "calories" class = "widget-icon" href = "assets/stat_cals_solid_48px.png" fill="#fb9800">
+      <animate attributeName="opacity" begin="load" to="1" from="0" dur="1" />
+      <animate attributeName="x"  begin="load" to="55%" from="100%" dur="1" />      
+    </image>
+      
+    <text id = "cals-text">
+      <animate attributeName="opacity" begin="load" to="1" from="0" dur="1" />
+      <animate attributeName="x"  begin="load" to="80%" from="100%" dur="1" />     
+    </text>
+    
+  </g>
+  
+    <g id = "floorsteps">
+    
+    <image id = "floors" class = "widget-icon" href = "assets/stat_floors_solid_48px.png" fill="white">
+      <animate attributeName="opacity" begin="load" to="1" from="0" dur="1" />
+      <animate attributeName="x"  begin="load" to="55%" from="100%" dur="1" /> 
+    </image>
+      
+    <text id = "floors-text">
+      <animate attributeName="opacity" begin="load" to="1" from="0" dur="1" />
+      <animate attributeName="x"  begin="load" to="80%" from="100%" dur="1" />
+    </text>
+    
+  </g>
+  
+</svg>
